@@ -1,8 +1,3 @@
-//SALA: 4°A
-/*ALUNOS:
-Caio Caminitti de Moraes - 2146079
-Leonardo Ferreira Colmanetti de Almeida Lima - 2131526*/
-
 #ifndef PILHA_H
 #define PILHA_H
 #include <string>
