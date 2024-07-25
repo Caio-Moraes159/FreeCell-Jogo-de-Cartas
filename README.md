@@ -27,7 +27,7 @@
     <li>Se um movimento inválido for tentado, o programa avisa o jogador e permite uma nova jogada.</li>
 </ol>
 
-<h1>Explicação do Código</h1>
+<h2>Explicação do Código</h2>
 <p>Este projeto consiste em uma implementação de um jogo de cartas, onde diversas funções manipulam as cartas e a estrutura das pilhas. A seguir está a explicação das funções principais:</p>
 
 <h2>Função verificação</h2>
@@ -54,6 +54,24 @@
     <li>Primeiramente, ela embaralha o vetor de cartas usando a função <code>rand()</code> para gerar números aleatórios.</li>
     <li>Em seguida, distribui as cartas embaralhadas nas pilhas, dividindo-as igualmente entre as estruturas de pilhas disponíveis.</li>
 </ul>
+
+<h2>Como Compilar e Executar</h2>
+<p>Para compilar e executar o programa, siga os passos abaixo:</p>
+<ol>
+    <li>Abra o terminal ou prompt de comando.</li>
+    <li>Navegue até o diretório onde os arquivos <code>Driver.cpp</code>, <code>FreeCell.h</code> e <code>FreeCell.cpp</code> estão localizados.</li>
+    <li>Compile os arquivos usando o comando:
+        <pre>
+g++ Driver.cpp FreeCell.cpp -o arvore_decisao
+        </pre>
+    </li>
+    <li>Execute o programa com o comando:
+        <pre>
+./arvore_decisao
+        </pre>
+    </li>
+</ol>
+
 
 <h1>Imagen do prompt de comando do código</h1>
 
